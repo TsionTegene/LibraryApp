@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "splash": {
+      "image": "assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos."
+        }
+      ]
+    ],
+    "name": "android",
+    "slug": "android"
+  }
+}
